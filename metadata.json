@@ -1,0 +1,6 @@
+{
+  "name": "Kiroku — Japanese Stationery Journal & Guides",
+  "description": "A thoughtful, editorial Japanese stationery blog exploring notebooks, pens, journaling aesthetics, and desk culture. Small things. Beautifully written.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
