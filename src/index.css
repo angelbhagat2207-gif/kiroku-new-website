@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', 'Noto Serif JP', Georgia, serif;
+    --font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #FAF9F6;
+    color: #292824;
+    letter-spacing: -0.01em;
+  }
+
+  h1, h2, h3, h4, .font-editorial {
+    font-family: var(--font-serif);
+    font-weight: 400;
+  }
+}
+
+/* Custom editorial prose styles */
+.prose-editorial h2 {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  color: #292824;
+  margin-top: 2.75rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  line-height: 1.22;
+  letter-spacing: -0.015em;
+  scroll-margin-top: 5.5rem;
+}
+
+.prose-editorial h3 {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  color: #292824;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.5rem;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  scroll-margin-top: 5.5rem;
+}
+
+.prose-editorial p {
+  margin-bottom: 1.5rem;
+  line-height: 1.85;
+  color: #292824;
+  font-size: 1.025rem;
+  font-weight: 350;
+}
+
+.prose-editorial ul, .prose-editorial ol {
+  margin-bottom: 1.6rem;
+  padding-left: 1.25rem;
+}
+
+.prose-editorial li {
+  margin-bottom: 0.55rem;
+  line-height: 1.8;
+  color: #292824;
+  font-weight: 350;
+}
+
+.prose-editorial table {
+  width: 100%;
+  margin: 2.5rem 0;
+  border-collapse: collapse;
+  font-size: 0.925rem;
+}
+
+.prose-editorial th {
+  text-align: left;
+  padding: 0.85rem 1.15rem;
+  background-color: #F2EFE8;
+  color: #292824;
+  font-weight: 500;
+  font-size: 0.825rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border-bottom: 1px solid #DDD8CF;
+}
+
+.prose-editorial td {
+  padding: 0.85rem 1.15rem;
+  border-bottom: 1px solid #DDD8CF;
+  color: #292824;
+}
+
+.prose-editorial tr:hover td {
+  background-color: #F7F5F0;
+}
